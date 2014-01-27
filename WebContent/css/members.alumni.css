@@ -1,0 +1,27 @@
+.name-card .name-card-current-work {
+	
+}
+
+#alumni-year-nav {
+	list-style-type: none;
+}
+
+#alumni-year-nav ul {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#alumni-year-nav li {
+	display: inline;
+	font-size: 13px;
+}
+
+#alumni-year-nav li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+#alumni-year-nav li a:hover {
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+}

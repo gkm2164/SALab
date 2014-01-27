@@ -1,0 +1,65 @@
+body { background-color: #c9d5eb; }
+#container { background-color: white; }
+
+/* Header is consist of #banner and #nav-global */
+header {}
+
+/* Banner is consist of 2 #logo and textbox*/
+#banner {}
+
+#logo {}
+#salab-logo {}
+#kaist-logo {}
+#salab-title {}
+
+#nav-global {
+	background-color: #DDDDDD;
+/* 	background: #f3f3f3; Old browsers */
+/* 	background: -moz-linear-gradient(left,  #f3f3f3 0%, #b6b6b6 0%, #f3f3f3 100%); FF3.6+ */
+/* 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f3f3f3), color-stop(0%,#b6b6b6), color-stop(100%,#f3f3f3)); Chrome,Safari4+ */
+/* 	background: -webkit-linear-gradient(left,  #f3f3f3 0%,#b6b6b6 0%,#f3f3f3 100%); Chrome10+,Safari5.1+ */
+/* 	background: -o-linear-gradient(left,  #f3f3f3 0%,#b6b6b6 0%,#f3f3f3 100%); Opera 11.10+ */
+/* 	background: -ms-linear-gradient(left,  #f3f3f3 0%,#b6b6b6 0%,#f3f3f3 100%); IE10+ */
+/* 	background: linear-gradient(to right,  #f3f3f3 0%,#b6b6b6 0%,#f3f3f3 100%); W3C */
+/* 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 ); IE6-9 */
+}
+/* if navigation is activated */
+#nav-global > ul > .nav-active { background-color: #EEEEEE; }
+/* first navigation's child's color */
+#nav-global > ul ul li { background-color: #CDCDCD; }
+/* every navigation on nav global's color when hovering mouse.*/
+#nav-global ul li:hover { background-color: #EEEEEE; }
+/* If we move to actual link */
+#nav-global a:hover { background-color: #EEEEEE; }
+
+/* Section is consist of two, aside and article */
+section {}
+/* Aside is local navigation. */
+section aside {
+	background-color: rgba(156, 171, 198, .60);
+	background: rgb(156,171,198); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(156,171,198,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(156,171,198,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(156,171,198,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(156,171,198,1) 0%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(156,171,198,1) 0%,rgba(234,234,234,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(156,171,198,1) 0%,rgba(234,234,234,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cabc6', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+}
+
+#nav-local > ul > li { background-color: #95ADD7; }
+#nav-local > ul > .nav-active { background-color: #B3CBF5; }
+#nav-local > ul > li:hover { background-color: #A4BCE6; }
+#nav-local > ul > .nav-active:hover { background-color: #B3CBF5; }
+#nav-local li > ul li { background-color: #ADBCD7; }
+
+footer {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(221,221,221,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-9 */
+}

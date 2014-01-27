@@ -1,0 +1,42 @@
+* {
+	font-family: verdana, helvetica, arial, sans-serif, 맑은 고딕;
+}
+
+body {
+	font-family: Arial;
+}
+
+#salab-title h1 {
+	font-size: 20px;
+}
+
+#salab-title h1:first-letter {
+	font-size: 30px;
+}
+
+nav {
+	font-size: 12px;
+	font-family: verdana, helvetica, arial, sans-serif;
+}
+
+nav ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+#page p {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+footer {
+	font-size: 12px;
+}
+
+footer #nav-history {
+	font-size: 10px;
+}

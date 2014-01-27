@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Navigation-Configuration>
+	<Navigation default="true">
+		<desc>Home page</desc>
+		<nav-class>kr.ac.kaist.salab.page.salabpage.page.HomePage</nav-class>
+	</Navigation>
+	<Navigation>
+		<desc>Members</desc>
+		<nav-class>kr.ac.kaist.salab.page.salabpage.page.members.MembersPage</nav-class>
+	</Navigation>
+	<Navigation>
+		<desc>Publications</desc>
+		<nav-class>kr.ac.kaist.salab.page.salabpage.page.pubs.PublicationsPage</nav-class>
+	</Navigation>
+	<Navigation>
+		<desc>Activities</desc>
+		<nav-class>kr.ac.kaist.salab.page.salabpage.page.activites.ActivitesPage</nav-class>
+	</Navigation>
+	<Navigation>
+		<desc>Courses</desc>
+		<nav-class>kr.ac.kaist.salab.page.salabpage.page.courses.CoursesPage</nav-class>
+	</Navigation>
+	<Navigation>
+		<desc>Resources</desc>
+		<nav-class>kr.ac.kaist.salab.page.salabpage.page.res.ResourcesPage</nav-class>
+	</Navigation>
+</Navigation-Configuration>

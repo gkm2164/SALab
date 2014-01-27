@@ -1,0 +1,32 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+	<tlib-version>0.1</tlib-version>
+	<short-name>pub-tool</short-name>
+	<tag>
+		<name>pubprn</name>
+		<tag-class>kr.ac.kaist.salab.taglib.PublicationTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>format</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>desc</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>var</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexpvalue>false</rtexpvalue>
+		</attribute>
+		<variable>
+			<name-from-attribute>var</name-from-attribute>
+			<variable-class>java.lang.String</variable-class>
+			<scope>NESTED</scope>
+		</variable>
+	</tag>
+</taglib>

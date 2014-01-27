@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://www.jooq.org/xsd/jooq-codegen-3.0.0.xsd">
+	<jdbc>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@Gyeongmin-PC:1521:gyeongmin</url>
+		<user>salab</user>
+		<password>salab</password>
+	</jdbc>
+	
+	<generator>
+		<name>org.jooq.util.DefaultGenerator</name>
+		<database>
+			<name>org.jooq.util.oracle.OracleDatabase</name>
+			<inputSchema>SALab</inputSchema>
+			<includes>.*</includes>
+			<excludes></excludes>
+		</database>
+		<target>
+			<packageName>kr.ac.kaist.salab.database.entity</packageName>
+			<directory>C:/Eclipse_JSP/Workspace/SALab/src</directory>
+		</target>
+	</generator>
+</configuration>

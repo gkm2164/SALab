@@ -1,0 +1,237 @@
+body { magin: 5px auto; }
+#container {
+	display: block;
+	width: 980px;
+	margin: 0px auto;
+	clear: both;
+}
+
+header {
+	width: 100%; height: 135px;
+	display: block;
+}
+#banner {
+	width: 100%; height: 105px;
+	display: block;
+}
+
+.logo {
+	width: 240px;
+	height: inherit;
+}
+#salab-logo-box {
+	position: relative;
+	float: left;
+	width: 240px; height: 105px;
+}
+
+#salab-logo {
+	position: absolute;
+	top: 0px; bottom: 0px;
+	right: 0px; left: 0px;
+	margin: auto;
+	width: 182.9x; height: 80px;
+}
+
+#salab-title {
+	float: left;
+	width: 300px;
+	height: 105px;
+	overflow: hidden;
+	
+	
+}
+
+#salab-title h1 {
+	height: 105px;
+	vertical-align: middle;
+}
+
+#kaist-logo-box {
+	position: relative;
+	float: right;
+	width: 150px;
+	height: 105px;
+}
+
+
+#kaist-logo {
+	position: absolute;
+	top: 0px;
+	right: 1em; bottom: 0px;
+	margin: auto;
+	width: 140px; height: 40px;
+}
+
+section {
+	position: relative;
+	display: block;
+	width: 980px;
+	min-height: 700px;
+	height: auto;
+}
+
+section aside {
+	position: absolute;
+	float: left;
+	width: 150px;
+	min-height: inherit;
+	height: 100%;
+}
+
+section article #page > *:first-child {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+/* Navigation common property */
+nav {
+	padding: 0px; margin: 0px;
+}
+
+nav ul {
+	padding: 0px; margin: 0px;
+}
+
+nav li {
+	position: relative;
+}
+nav li > ul {
+	display: none;
+}
+
+nav li:hover > ul {
+	display: block;
+	position: absolute;
+}
+
+#nav-global {
+	height: 30px;
+}
+#nav-global li {
+	z-index: 500;
+}
+#nav-local li {
+	z-index: 400;
+}
+
+/* Global navigation */
+#nav-global > ul {
+	padding: 0px; margin: 0px;
+	width: inherit; height: inherit;
+}
+
+#nav-global > ul > li {
+	display: block;
+	float: left;
+	width: 120px; height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0px; margin: 0px;
+}
+
+#nav-global > ul > li > a {
+	width: 120px; height: 30px;
+	margin: 0px; padding: 0px;
+	vertical-align: middle;
+}
+
+#nav-global > ul > li > ul{
+	position: absolute;
+	width: 150px;
+	top: 30px;
+}
+
+#nav-global > ul > li > ul li > ul {
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	width: 150px;
+}
+
+/* End of global navigation property */
+#nav-local ul {
+	display: block;
+	margin: 0;
+	padding: 0px;
+	
+}
+
+#nav-local li {
+	padding-left: 1em;
+}
+
+#nav-local > ul > li {
+	position: relative;
+	line-height: 30px;
+	min-height: 30px;
+	width: inherit;
+	padding: 0 0 0 1em;
+	margin: 0px;
+}
+
+#nav-local li > ul {
+	display: none;
+	height: 0px;
+	position: absolute;
+	top: -1px;
+	left: 149px;
+	width: 150px;
+}
+
+#nav-local li:hover > ul {
+	display: block;
+}
+
+section article {
+	margin-left: 150px;
+	width: 770px;
+	min-height: inherit;
+	height: inherit;
+	padding-left: 1em;
+}
+
+.no-local-nav aside {
+	display: none;
+}
+
+.no-local-nav article {
+	margin-left: 0px;
+}
+
+
+footer {
+	position: relative;
+	width: 980px;
+	height: 30px;
+}
+
+footer #nav-history {
+	position: absolute;
+	left: 0px;
+	top: -30px;
+	height: 30px;
+}
+
+footer #copyright {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: inherit;
+	height: inherit;
+}
+
+footer #copyright p {
+	display: table-cell;
+	
+	/* Size property */
+	width: 980px; height: inherit;
+	
+	/* spacing */
+	margin: 0px; padding-right: 1em;
+	
+	/* Alignment */
+	text-align: right;
+	vertical-align: middle;
+}

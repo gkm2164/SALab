@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Instantiator>kr.ac.kaist.salab.page.salabpage.SALabNavigationConstructor</Instantiator>
+	<AddressInformation>
+		<ProtocolType>http</ProtocolType>
+		<DomainName>localhost</DomainName>
+		<Port>8080</Port>
+		<AbsolutePath>SALab</AbsolutePath>
+	</AddressInformation>
+	<DatabaseInformation>
+		<DomainName>localhost</DomainName>
+		<Port>9000</Port>
+		<SID>orcl</SID>
+		<ID>SALab</ID>
+		<Password>SALab</Password>
+	</DatabaseInformation>
+</Configuration>

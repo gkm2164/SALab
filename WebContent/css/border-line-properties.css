@@ -1,0 +1,25 @@
+/*
+	in most of the case, border-line should be used when debugging layout.
+	Otherwise, you can use on table border-line.
+*/
+header {}
+#banner {}
+
+.logo {}
+#salab-title {}
+
+img { border: 0; }
+
+#nav-global > ul > li ul > li { border-bottom: 1px solid; }
+
+section {}
+section aside {}
+
+#nav-local > ul > li { border-bottom: 1px solid; }
+#nav-local li:hover > ul {}
+#nav-local li:hover > ul > li { border-bottom: 1px solid; }
+#nav-local li:hover > ul > li:first-child { border-top: 1px solid; }
+
+/* In general case, below section will be handled with each service css. */
+section article {}
+footer {}
